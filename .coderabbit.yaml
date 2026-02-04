@@ -1,0 +1,15 @@
+# .coderabbit.yaml for Project Chimera
+
+review:
+  spec_alignment: true
+  security_checks: true
+  test_coverage: true
+  fail_on:
+    - missing-spec-reference
+    - security-vulnerability
+    - untested-code
+
+instructions:
+  - Always check that code changes reference a spec in specs/.
+  - Flag any code that is not covered by a test.
+  - Highlight any potential security issues.

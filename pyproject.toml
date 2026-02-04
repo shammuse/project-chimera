@@ -1,0 +1,19 @@
+# Project Chimera Python Environment
+
+[project]
+name = "project-chimera"
+version = "0.1.0"
+description = "Autonomous Influencer Factory: Spec-Driven, Agentic, and Reliable."
+authors = ["FDE Trainee <your.email@example.com>"]
+
+[tool.uv]
+# uv-specific settings can be added here
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = ["tests"]

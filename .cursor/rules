@@ -1,0 +1,15 @@
+# .cursor/rules for Project Chimera
+
+## Project Context
+This is Project Chimera, an autonomous influencer system.
+
+## Prime Directive
+NEVER generate code without checking specs/ first.
+
+## Traceability
+Explain your plan before writing code. Log all actions via MCP Sense.
+
+## Additional Rules
+- Separate Skills (runtime) from Tools (dev/MCP).
+- Commit early, commit often.
+- All code must be spec-aligned and test-driven.
